@@ -1,0 +1,358 @@
+.MainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 0 50px;
+}
+.pic{
+ width: 80%;
+}
+.pic img{
+width: 100%;
+}
+.design{
+    width: 25%;
+}
+.design h1{
+    font-size: 70px;
+}
+.design p{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+.about{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px 70px;
+    color: #2c2c2c;
+}
+.info{
+    width: 50%;
+   padding: 40px;
+   animation-name:move;
+   animation-duration: 0.9s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: 1;
+   transform-origin: left;
+}
+
+@keyframes move {
+   from {
+       transform:translateX(-200px);
+   }
+
+   to {
+       transform:translateX(0px);
+   }
+
+}
+   
+
+.info h1{
+    font-size: 90px;
+    margin-bottom: 20px;
+   
+}
+.info h5{
+    font-size: 25px;
+    font-weight: 300;
+    color: #757575;
+}
+.info p{
+    font-size: 20px;
+    margin-top:20px ;
+    color: #757575;
+}
+.image{
+    width: 70%;
+    animation-name:show;
+    animation-duration: 0.9s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    transform-origin: right;
+}
+
+@keyframes show {
+    from {
+        transform:translateX(200px);
+    }
+ 
+    to {
+        transform:translateX(0px);
+    }
+
+
+}
+.image img{
+    width: 100%;
+}
+
+
+
+
+
+.mainBook{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px 70px;
+     color: #2c2c2c;
+}
+.book{
+    width: 50%;
+   padding: 40px;
+   animation-name:book;
+   animation-duration: 0.6s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: 1;
+   transform-origin: left;
+}
+
+@keyframes book {
+   from {
+       transform:translateX(-200px);
+   }
+
+   to {
+       transform:translateX(0px);
+   }
+
+}
+.book h1{
+    font-size: 100px;
+   
+}
+.book h5{
+    font-size: 20px;
+    font-weight: 300;
+    color: #757575;
+}
+.book p{
+    font-size: 25px;
+    font-weight: 100;
+    color: #757575;
+}
+.book button{
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #333333;
+    border: #333333 solid 1px;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+.photo{
+    padding: 10px 20px;
+    width: 50%;
+    animation-name:round;
+    animation-duration: 0.6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    transform-origin: right;
+}
+
+@keyframes round {
+    from {
+        transform:translateX(200px);
+    }
+ 
+    to {
+        transform:translateX(0px);
+    }
+
+
+}
+.photo img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+.portfolio{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px 70px;
+    color: #2c2c2c;
+}
+.project{
+    width: 50%;
+   padding: 40px;
+   animation-name:pro;
+   animation-duration: 0.9s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: 1;
+   transform-origin: left;
+}
+
+@keyframes pro {
+   from {
+       transform:translateX(-200px);
+   }
+
+   to {
+       transform:translateX(0px);
+   }
+
+}
+   
+
+.project h1{
+    font-size: 90px;
+  
+}
+.project h5{
+    font-size: 25px;
+    font-weight: 300;
+    color: #757575;
+ 
+}
+.project p{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #757575;
+}
+.port{
+    width: 50%;
+    
+    animation-name:sign;
+    animation-duration: 0.9s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    transform-origin: right;
+}
+
+@keyframes sign {
+    from {
+        transform:translateX(200px);
+    }
+ 
+    to {
+        transform:translateX(0px);
+    }
+
+
+}
+.port img{
+    width: 100%;
+}
+
+
+
+.contact{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px 70px;
+    color: #2c2c2c;
+}
+.touch{
+    width: 50%;
+   padding: 40px;
+   animation-name:from;
+   animation-duration: 0.9s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: 1;
+   transform-origin: left;
+}
+
+@keyframes from {
+   from {
+       transform:translateX(-200px);
+   }
+
+   to {
+       transform:translateX(0px);
+   }
+
+}
+   
+
+.touch h1{
+    font-size: 100px;
+   
+}
+.touch p{
+    font-size: 20px;
+    margin-top:20px ;
+    color: #757575;
+}
+.profile{
+    width: 90%;
+    animation-name:lite;
+    animation-duration: 0.9s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    transform-origin: right;
+}
+
+@keyframes lite {
+    from {
+        transform:translateX(200px);
+    }
+ 
+    to {
+        transform:translateX(0px);
+    }
+
+
+}
+.profile img{
+    width: 100%;
+}
+.twit{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.twit a{
+    text-decoration: none;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.twit h2{
+    width: 40%;
+}
+.twt{
+    color:rgb(7, 176, 244) ;
+}
+.face{
+    color: rgb(86, 86, 187);
+}
+.linked{
+    color: rgb(23, 134, 178);
+}
+.inst{
+    color: rgb(224, 39, 135);
+}
+.icon{
+    width: 40%;
+}
+.icon img{
+    width: 100%;
+}
+
+
+
+
